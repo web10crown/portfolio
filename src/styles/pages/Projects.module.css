@@ -1,0 +1,72 @@
+.container {
+	padding: 20px 100px;
+}
+.wrapper {
+}
+.project {
+	display: flex;
+	width: 100%;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	background-color: white;
+	box-shadow: 0 2px 4px 0 rgb(0 0 0/20%);
+}
+.left {
+	flex: 1;
+	display: flex;
+	/*justify-content: center;*/
+	align-items: center;
+	padding: 20px;
+}
+.imgContainer {
+	position: relative;
+	width: 95%;
+	height: 35vh;
+	border-radius: 5px;
+}
+.image {
+	object-fit: cover;
+	border-radius: 5px;
+}
+.right {
+	flex: 1;
+	padding: 20px;
+}
+.info {
+}
+.info h2 {
+	font-weight: 350;
+	margin: 10px 0;
+	color: #0a66c2;
+}
+.info h4 {
+	margin: 10px 0;
+}
+.links {
+	display: flex;
+	justify-content: space-between;
+}
+.icon {
+	font-size: 35px;
+	cursor: pointer;
+}
+.icon :hover {
+	color: #0a66c2;
+}
+
+@media screen and (max-width: 800px) {
+	.container {
+		padding: 10px;
+	}
+	.project {
+		flex-direction: column;
+	}
+	.left {
+		justify-content: center;
+		padding: 5px;
+	}
+	.imgContainer {
+		width: 98%;
+		height: 60vw;
+	}
+}

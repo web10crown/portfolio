@@ -1,0 +1,228 @@
+.container {
+	padding: 30px 100px;
+}
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.left {
+	flex: 1;
+}
+.profile {
+	position: relative;
+	border-radius: 5px;
+	background-color: white;
+	box-shadow: 0 2px 4px 0 rgb(0 0 0/10%);
+}
+
+.backgroundImg {
+	position: relative;
+	height: 15vw;
+	width: 100%;
+	cursor: pointer;
+}
+.profileBackground {
+	border-radius: 5px 5px 0 0;
+}
+.avatar {
+	padding: 5px;
+	border-radius: 50%;
+	background-color: white;
+	position: absolute;
+	top: 7vw;
+	left: 30px;
+	cursor: pointer;
+}
+.avatarContainer {
+	position: relative;
+	border-radius: 50%;
+	width: 12vw;
+	height: 12vw;
+}
+.avatarImg {
+	border-radius: 50%;
+}
+.info {
+	padding: 0 20px;
+	margin-top: 70px;
+	font-weight: 350;
+	padding-bottom: 10px;
+}
+.info h1 {
+	font-weight: 400;
+	margin: 7px 0;
+}
+.info p {
+	margin: 7px 0px;
+}
+.work {
+	background-color: #0a66c2;
+	color: white;
+	border: none;
+	border-radius: 20px;
+	font-weight: bold;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+
+.aboutContainer {
+	margin: 20px 0;
+	padding: 20px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px 0 rgb(0 0 0/20%);
+}
+.aboutContainer h2 {
+	color: #0a66c2;
+	margin-bottom: 20px;
+	font-weight: 300;
+}
+.aboutContainer p {
+	font-weight: 350;
+	margin: 5px 0;
+}
+/*project css here=================================================> */
+
+.projects {
+	margin: 20px 0;
+	padding: 20px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px 0 rgb(0 0 0/20%);
+}
+.projects h2 {
+	color: #0a66c2;
+	margin-bottom: 20px;
+	font-weight: 300;
+}
+.projectContainer {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.projectCard {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 10px;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: white;
+	box-shadow: 0 2px 4px 0 rgb(0 0 0/40%);
+}
+
+.projectImgContainer {
+	width: 300px;
+	height: 200px;
+	position: relative;
+	border-radius: 5px;
+}
+.projectImg {
+	border-radius: 5px;
+	object-fit: cover;
+}
+.projectInfo {
+	padding: 30px 20px;
+	max-width: 300px;
+}
+.projectInfo h4 {
+	color: #0a66c2;
+}
+.projectInfo p {
+	font-weight: 300;
+}
+.projectLinks {
+	display: flex;
+	padding: 20px;
+	justify-content: space-between;
+}
+.github {
+	color: rgb(98, 98, 98);
+	font-size: 30px;
+	cursor: pointer;
+}
+.github :hover {
+	color: black;
+}
+.device {
+	color: rgb(98, 98, 98);
+	font-size: 30px;
+	cursor: pointer;
+}
+.device :hover {
+	color: black;
+}
+
+/*============================================================================*/
+.right {
+	min-width: 300px;
+	padding: 0 10px;
+}
+.rightWrapper {
+	position: sticky;
+	top: 70px;
+	padding: 5px 10px;
+	background-color: white;
+	border-radius: 5px;
+}
+.skillContainer {
+	margin-bottom: 20px;
+}
+.skill {
+	margin: 5px;
+	border-radius: 5px;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	/*border: 1px solid lightgray;*/
+	background-color: white;
+	box-shadow: 0 2px 4px 0 rgb(0 0 0/20%);
+}
+.skill h3 {
+	font-weight: 300;
+}
+.skillImgContainer {
+	position: relative;
+	width: 50px;
+	height: 50px;
+}
+.skillImg {
+	border-radius: 50%;
+	object-fit: cover;
+}
+@media screen and (max-width: 800px) {
+	.container {
+		padding: 10px 5px;
+	}
+	.backgroundImg {
+		height: 30vw;
+	}
+	.avatar {
+		top: 15vw;
+		left: 25px;
+	}
+	.avatarContainer {
+		width: 20vw;
+		height: 20vw;
+	}
+	.wrapper {
+		flex-direction: column;
+	}
+	.right {
+		padding: 0;
+	}
+}
+@media screen and (max-width: 500px) {
+	.avatar {
+		top: 17vw;
+		left: 25px;
+	}
+	.projectCard {
+		margin: 10px 0;
+	}
+	.projectImgContainer {
+		width: 90vw;
+		height: 45vw;
+	}
+}

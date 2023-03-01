@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className={styles.wrapper}>
           <div className={styles.left}>
             <Link href="https://www.linkedin.com/in/neeraj-rana-387a53259/">
-              <LinkedIn className={styles.linkedin} style={{fontSize:"50px}} />
+              <LinkedIn className={styles.linkedin} style={{fontSize:"50px"}} />
             </Link>
             <div className={styles.find}>
               <input type="text" placeholder="Search" />
@@ -29,7 +29,7 @@ const Navbar = () => {
               style={{ textDecoration: "none", color: "rgb(98, 98, 98)" }}
             >
               <div className={styles.links}>
-                <Home className={styles.icons} style={{fontSize:"30px}} />
+                <Home className={styles.icons} style={{fontSize:"30px"}} />
                 HOME
               </div>
             </Link>
@@ -38,7 +38,7 @@ const Navbar = () => {
               style={{ textDecoration: "none", color: "rgb(98, 98, 98)" }}
             >
               <div className={styles.links}>
-                <HomeRepairService className={styles.icons} style={{fontSize:"30px}} />
+                <HomeRepairService className={styles.icons} style={{fontSize:"30px"}} />
                 PROJECTS
               </div>
             </Link>
@@ -47,7 +47,7 @@ const Navbar = () => {
               style={{ textDecoration: "none", color: "rgb(98, 98, 98)" }}
             >
               <div className={styles.links}>
-                <GitHub className={styles.icons} style={{fontSize:"30px}} />
+                <GitHub className={styles.icons} style={{fontSize:"30px"}} />
                 GITHUB
               </div>
             </Link>

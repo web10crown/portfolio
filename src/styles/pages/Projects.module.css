@@ -20,7 +20,7 @@
 }
 .imgContainer {
 	position: relative;
-	width: 100%;
+	width: 95%;
 	height: 35vh;
         box-shadow: 0 2px 4px 0 rgb(0 0 0/5%);
 	border-radius: 5px;
@@ -64,10 +64,10 @@
 	}
 	.left {
 		justify-content: center;
-		padding: 5px;
+	
 	}
 	.imgContainer {
-		width: 98%;
+		width: 100%;
 		height: 60vw;
 	}
 }

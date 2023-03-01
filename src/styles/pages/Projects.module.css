@@ -22,6 +22,7 @@
 	position: relative;
 	width: 95%;
 	height: 35vh;
+        border: 1px solid gray;
 	border-radius: 5px;
 }
 .image {

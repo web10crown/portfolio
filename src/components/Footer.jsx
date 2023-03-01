@@ -27,9 +27,9 @@ const Footer = () => {
 						<div className={styles.right}>
 							<h3>CONTACT US</h3>
 							<div className={styles.icons}>
-								<LinkedIn className={styles.icon} />
+								<LinkedIn className={styles.icon} style={{fontSize:"30px}} />
 								<GitHub className={styles.icon} />
-								<HomeRepairService className={styles.icon} />
+								<HomeRepairService className={styles.icon} style={{fontSize:"30px}} />
 							</div>
 						</div>
 					</div>
